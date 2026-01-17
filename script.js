@@ -13,7 +13,7 @@ class NVCTApp {
         this.questionStartTime = null;
         
         // 管理员设置
-        this.adminPassword = "NVCT2025"; // 可修改的管理员密码
+        this.adminPassword = "NVCT2024"; // 可修改的管理员密码
         this.isAdmin = false;
         
         this.init();
@@ -1196,4 +1196,5 @@ class NVCTApp {
 document.addEventListener('DOMContentLoaded', () => {
     new NVCTApp();
 });
+
 
